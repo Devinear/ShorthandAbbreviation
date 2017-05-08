@@ -183,12 +183,12 @@
                         android:textOn="@string/initial_consonant_9"
                         android:textOff="@string/initial_consonant_9" />
                     <ToggleButton
-                        android:id="@+id/toggleBtn_final_16"
+                        android:id="@+id/toggleBtn_final_6"
                         android:layout_width="@dimen/toggle_btn_width_30dp"
                         android:layout_height="@dimen/toggle_btn_height"
                         android:layout_weight="1"
-                        android:textOn="@string/final_consonant_16"
-                        android:textOff="@string/final_consonant_16" />
+                        android:textOn="@string/final_consonant_6"
+                        android:textOff="@string/final_consonant_6" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -224,12 +224,12 @@
                         android:textOn="@string/initial_consonant_13"
                         android:textOff="@string/initial_consonant_13" />
                     <ToggleButton
-                        android:id="@+id/toggleBtn_initial_14"
+                        android:id="@+id/toggleBtn_middle_1"
                         android:layout_width="@dimen/toggle_btn_width_30dp"
                         android:layout_height="@dimen/toggle_btn_height"
                         android:layout_weight="1"
-                        android:textOn="@string/initial_consonant_14"
-                        android:textOff="@string/initial_consonant_14" />
+                        android:textOn="@string/middle_consonant_1"
+                        android:textOff="@string/middle_consonant_1" />
                 </LinearLayout>
                 <!--INITIAL CONSONANT TOGGLE BUTTON :: END-->
             </LinearLayout>
@@ -287,13 +287,6 @@
                     android:layout_weight="1"
                     android:orientation="horizontal" >
                     <ToggleButton
-                        android:id="@+id/toggleBtn_final_6"
-                        android:layout_width="@dimen/toggle_btn_width_30dp"
-                        android:layout_height="@dimen/toggle_btn_height"
-                        android:layout_weight="1"
-                        android:textOn="@string/final_consonant_6"
-                        android:textOff="@string/final_consonant_6" />
-                    <ToggleButton
                         android:id="@+id/toggleBtn_final_7"
                         android:layout_width="@dimen/toggle_btn_width_30dp"
                         android:layout_height="@dimen/toggle_btn_height"
@@ -321,12 +314,6 @@
                         android:layout_weight="1"
                         android:textOn="@string/final_consonant_10"
                         android:textOff="@string/final_consonant_10" />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="horizontal" >
                     <ToggleButton
                         android:id="@+id/toggleBtn_final_11"
                         android:layout_width="@dimen/toggle_btn_width_30dp"
@@ -334,6 +321,12 @@
                         android:layout_weight="1"
                         android:textOn="@string/final_consonant_11"
                         android:textOff="@string/final_consonant_11" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
                     <ToggleButton
                         android:id="@+id/toggleBtn_final_12"
                         android:layout_width="@dimen/toggle_btn_width_30dp"
@@ -362,6 +355,13 @@
                         android:layout_weight="1"
                         android:textOn="@string/final_consonant_15"
                         android:textOff="@string/final_consonant_15" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_final_16"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/final_consonant_16"
+                        android:textOff="@string/final_consonant_16" />
                 </LinearLayout>
                 <!--FINAL CONSONANT TOGGLE BUTTON :: END-->
             </LinearLayout>
@@ -385,13 +385,6 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="horizontal">
-                <ToggleButton
-                    android:id="@+id/toggleBtn_middle_1"
-                    android:layout_width="@dimen/toggle_btn_width_30dp"
-                    android:layout_height="@dimen/toggle_btn_height"
-                    android:layout_weight="1"
-                    android:textOn="@string/middle_consonant_1"
-                    android:textOff="@string/middle_consonant_1" />
                 <ToggleButton
                     android:id="@+id/toggleBtn_middle_2"
                     android:layout_width="@dimen/toggle_btn_width_30dp"
@@ -427,6 +420,13 @@
                     android:layout_weight="1"
                     android:textOn="@string/middle_consonant_6"
                     android:textOff="@string/middle_consonant_6" />
+                <ToggleButton
+                    android:id="@+id/toggleBtn_middle_7"
+                    android:layout_width="@dimen/toggle_btn_width_30dp"
+                    android:layout_height="@dimen/toggle_btn_height"
+                    android:layout_weight="1"
+                    android:textOn="@string/middle_consonant_7"
+                    android:textOff="@string/middle_consonant_7" />
             </LinearLayout>
             <!--MIDDLE CONSONANT TOGGLE BUTTON :: END-->
             <Button

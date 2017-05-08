@@ -86,7 +86,7 @@ public class ShorthandTextControl {
             2. 초성중성종성숫자 내용으로 구성 / 약어 키와 내용 사이에는 탭(TAB)으로 구분
             2.1. 각 초성, 중성, 종성, 숫자는 키보드의 배열에 맞게 정렬되어 있다.
             2.2. 따라서 추가로 정렬할 필요가 없다.
-            3. 중성 - ㅗ,ㅏ,ㅜ,ㅡ,ㅓ,ㅣ
+            3. 중성 - ㅢ, ㅗ,ㅏ,ㅜ,ㅡ,ㅓ,ㅣ
             4. 중성이 없고 종성이 나올 경우 '-'로 구분
             4.1. ㄴ :: 초성 ㄴ
             4.1. -ㄴ :: 종성 ㄴ
@@ -103,7 +103,7 @@ public class ShorthandTextControl {
         boolean isMiddle = false;
         for(char ch : charArray) {
             // 중성 확인
-            if((ch == '-') || (ch == 'ㅗ') || (ch == 'ㅏ') || (ch == 'ㅜ') || (ch == 'ㅡ') || (ch == 'ㅓ') || (ch == 'ㅣ')) {
+            if((ch == '-') || (ch == 'ㅢ') || (ch == 'ㅗ') || (ch == 'ㅏ') || (ch == 'ㅜ') || (ch == 'ㅡ') || (ch == 'ㅓ') || (ch == 'ㅣ')) {
                 isMiddle = true;
                 if(ch != '-')
                     middleC += ch;

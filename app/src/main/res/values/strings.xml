@@ -26,32 +26,33 @@
     <string name="initial_consonant_11">ㄹ</string>
     <string name="initial_consonant_12">ㄴ</string>
     <string name="initial_consonant_13">ㅎ</string>
-    <string name="initial_consonant_14">ㅢ</string>
 
-    <string name="middle_consonant_1">ㅗ</string>
-    <string name="middle_consonant_2">ㅏ</string>
-    <string name="middle_consonant_3">ㅜ</string>
-    <string name="middle_consonant_4">ㅡ</string>
-    <string name="middle_consonant_5">ㅓ</string>
-    <string name="middle_consonant_6">ㅣ</string>
+    <!--초성에 위치하지만 중성에 포함되는 버튼임-->
+    <string name="middle_consonant_1">ㅢ</string>
+    <string name="middle_consonant_2">ㅗ</string>
+    <string name="middle_consonant_3">ㅏ</string>
+    <string name="middle_consonant_4">ㅜ</string>
+    <string name="middle_consonant_5">ㅡ</string>
+    <string name="middle_consonant_6">ㅓ</string>
+    <string name="middle_consonant_7">ㅣ</string>
 
     <string name="final_consonant_1">ㄲ</string>
     <string name="final_consonant_2">ㅎ</string>
     <string name="final_consonant_3">ㅌ</string>
     <string name="final_consonant_4">ㅊ</string>
     <string name="final_consonant_5">ㅍ</string>
-    <string name="final_consonant_6">ㄱ</string>
-    <string name="final_consonant_7">ㄴ</string>
-    <string name="final_consonant_8">ㄹ</string>
-    <string name="final_consonant_9">ㅅ</string>
-    <string name="final_consonant_10">ㅂ</string>
-    <string name="final_consonant_11">ㅆ</string>
-    <string name="final_consonant_12">ㅇ</string>
-    <string name="final_consonant_13">ㅁ</string>
-    <string name="final_consonant_14">ㄷ</string>
-    <string name="final_consonant_15">ㅈ</string>
     <!--초성에 위치하지만 종성에 포함되는 버튼임-->
-    <string name="final_consonant_16">ㅋ</string>
+    <string name="final_consonant_6">ㅋ</string>
+    <string name="final_consonant_7">ㄱ</string>
+    <string name="final_consonant_8">ㄴ</string>
+    <string name="final_consonant_9">ㄹ</string>
+    <string name="final_consonant_10">ㅅ</string>
+    <string name="final_consonant_11">ㅂ</string>
+    <string name="final_consonant_12">ㅆ</string>
+    <string name="final_consonant_13">ㅇ</string>
+    <string name="final_consonant_14">ㅁ</string>
+    <string name="final_consonant_15">ㄷ</string>
+    <string name="final_consonant_16">ㅈ</string>
 
     <string name="line_break">|</string>
     <string name="checked_clear">C.</string>

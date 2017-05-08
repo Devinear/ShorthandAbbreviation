@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
     private void initToggleBtn() {
 
         // Initial Consonant Toggle Btn - 초성
-        arrToggleBtnInitialC = new ToggleButton[14];;
+        arrToggleBtnInitialC = new ToggleButton[13];
         arrToggleBtnInitialC[0] = (ToggleButton) findViewById(R.id.toggleBtn_initial_1);
         arrToggleBtnInitialC[1] = (ToggleButton) findViewById(R.id.toggleBtn_initial_2);
         arrToggleBtnInitialC[2] = (ToggleButton) findViewById(R.id.toggleBtn_initial_3);
@@ -99,16 +99,16 @@ public class MainActivity extends AppCompatActivity {
         arrToggleBtnInitialC[10] = (ToggleButton) findViewById(R.id.toggleBtn_initial_11);
         arrToggleBtnInitialC[11] = (ToggleButton) findViewById(R.id.toggleBtn_initial_12);
         arrToggleBtnInitialC[12] = (ToggleButton) findViewById(R.id.toggleBtn_initial_13);
-        arrToggleBtnInitialC[13] = (ToggleButton) findViewById(R.id.toggleBtn_initial_14);
 
         // Middle Consonant Toggle Btn - 중성
-        arrToggleBtnMiddleC = new ToggleButton[6];;
-        arrToggleBtnMiddleC[0] = (ToggleButton) findViewById(R.id.toggleBtn_middle_1);
+        arrToggleBtnMiddleC = new ToggleButton[7];
+        arrToggleBtnMiddleC[0] = (ToggleButton) findViewById(R.id.toggleBtn_middle_1);  // 'ㅢ' - 초성에 위치함
         arrToggleBtnMiddleC[1] = (ToggleButton) findViewById(R.id.toggleBtn_middle_2);
         arrToggleBtnMiddleC[2] = (ToggleButton) findViewById(R.id.toggleBtn_middle_3);
         arrToggleBtnMiddleC[3] = (ToggleButton) findViewById(R.id.toggleBtn_middle_4);
         arrToggleBtnMiddleC[4] = (ToggleButton) findViewById(R.id.toggleBtn_middle_5);
         arrToggleBtnMiddleC[5] = (ToggleButton) findViewById(R.id.toggleBtn_middle_6);
+        arrToggleBtnMiddleC[6] = (ToggleButton) findViewById(R.id.toggleBtn_middle_7);
 
         // Final Consonant Toggle Btn - 종성
         arrToggleBtnFinalC = new ToggleButton[16];;
@@ -346,7 +346,6 @@ public class MainActivity extends AppCompatActivity {
             case R.id.toggleBtn_initial_11: text += getString(R.string.initial_consonant_11);  break;
             case R.id.toggleBtn_initial_12: text += getString(R.string.initial_consonant_12);  break;
             case R.id.toggleBtn_initial_13: text += getString(R.string.initial_consonant_13);  break;
-            case R.id.toggleBtn_initial_14: text += getString(R.string.initial_consonant_14);  break;
             // 중성
             case R.id.toggleBtn_middle_1:   text += getString(R.string.middle_consonant_1);  break;
             case R.id.toggleBtn_middle_2:   text += getString(R.string.middle_consonant_2);  break;
@@ -354,6 +353,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.toggleBtn_middle_4:   text += getString(R.string.middle_consonant_4);  break;
             case R.id.toggleBtn_middle_5:   text += getString(R.string.middle_consonant_5);  break;
             case R.id.toggleBtn_middle_6:   text += getString(R.string.middle_consonant_6);  break;
+            case R.id.toggleBtn_middle_7:   text += getString(R.string.middle_consonant_7);  break;
             // 종성
             case R.id.toggleBtn_final_1:    text += getString(R.string.final_consonant_1);  break;
             case R.id.toggleBtn_final_2:    text += getString(R.string.final_consonant_2);  break;
@@ -402,18 +402,18 @@ public class MainActivity extends AppCompatActivity {
             case 'ㄹ' :  arrToggleBtnInitialC[10].setChecked(true); break;
             case 'ㄴ' :  arrToggleBtnInitialC[11].setChecked(true); break;
             case 'ㅎ' :  arrToggleBtnInitialC[12].setChecked(true); break;
-            case 'ㅢ' :  arrToggleBtnInitialC[13].setChecked(true); break;
             default:    break;
         }
     }
     private void setToggleBtnFromText_Middle(char ch) {
         switch (ch) {
-            case 'ㅗ' :  arrToggleBtnMiddleC[0].setChecked(true); break;
-            case 'ㅏ' :  arrToggleBtnMiddleC[1].setChecked(true); break;
-            case 'ㅜ' :  arrToggleBtnMiddleC[2].setChecked(true); break;
-            case 'ㅡ' :  arrToggleBtnMiddleC[3].setChecked(true); break;
-            case 'ㅓ' :  arrToggleBtnMiddleC[4].setChecked(true); break;
-            case 'ㅣ' :  arrToggleBtnMiddleC[5].setChecked(true); break;
+            case 'ㅢ' :  arrToggleBtnMiddleC[0].setChecked(true); break;
+            case 'ㅗ' :  arrToggleBtnMiddleC[1].setChecked(true); break;
+            case 'ㅏ' :  arrToggleBtnMiddleC[2].setChecked(true); break;
+            case 'ㅜ' :  arrToggleBtnMiddleC[3].setChecked(true); break;
+            case 'ㅡ' :  arrToggleBtnMiddleC[4].setChecked(true); break;
+            case 'ㅓ' :  arrToggleBtnMiddleC[5].setChecked(true); break;
+            case 'ㅣ' :  arrToggleBtnMiddleC[6].setChecked(true); break;
             default:    break;
         }
     }
@@ -424,17 +424,17 @@ public class MainActivity extends AppCompatActivity {
             case 'ㅌ' :  arrToggleBtnFinalC[2].setChecked(true); break;
             case 'ㅊ' :  arrToggleBtnFinalC[3].setChecked(true); break;
             case 'ㅍ' :  arrToggleBtnFinalC[4].setChecked(true); break;
-            case 'ㄱ' :  arrToggleBtnFinalC[5].setChecked(true); break;
-            case 'ㄴ' :  arrToggleBtnFinalC[6].setChecked(true); break;
-            case 'ㄹ' :  arrToggleBtnFinalC[7].setChecked(true); break;
-            case 'ㅅ' :  arrToggleBtnFinalC[8].setChecked(true); break;
-            case 'ㅂ' :  arrToggleBtnFinalC[9].setChecked(true); break;
-            case 'ㅆ' :  arrToggleBtnFinalC[10].setChecked(true); break;
-            case 'ㅇ' :  arrToggleBtnFinalC[11].setChecked(true); break;
-            case 'ㅁ' :  arrToggleBtnFinalC[12].setChecked(true); break;
-            case 'ㄷ' :  arrToggleBtnFinalC[13].setChecked(true); break;
-            case 'ㅈ' :  arrToggleBtnFinalC[14].setChecked(true); break;
-            case 'ㅋ' :  arrToggleBtnFinalC[15].setChecked(true); break;
+            case 'ㅋ' :  arrToggleBtnFinalC[5].setChecked(true); break;
+            case 'ㄱ' :  arrToggleBtnFinalC[6].setChecked(true); break;
+            case 'ㄴ' :  arrToggleBtnFinalC[7].setChecked(true); break;
+            case 'ㄹ' :  arrToggleBtnFinalC[8].setChecked(true); break;
+            case 'ㅅ' :  arrToggleBtnFinalC[9].setChecked(true); break;
+            case 'ㅂ' :  arrToggleBtnFinalC[10].setChecked(true); break;
+            case 'ㅆ' :  arrToggleBtnFinalC[11].setChecked(true); break;
+            case 'ㅇ' :  arrToggleBtnFinalC[12].setChecked(true); break;
+            case 'ㅁ' :  arrToggleBtnFinalC[13].setChecked(true); break;
+            case 'ㄷ' :  arrToggleBtnFinalC[14].setChecked(true); break;
+            case 'ㅈ' :  arrToggleBtnFinalC[15].setChecked(true); break;
             default:    break;
         }
     }
