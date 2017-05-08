@@ -1,0 +1,17 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="toggle_btn_width_0dp">0dp</dimen>
+    <dimen name="toggle_btn_width_30dp">30dp</dimen>
+    <dimen name="toggle_btn_height">50dp</dimen>
+    <dimen name="table_row_text_size">15sp</dimen>
+    <dimen name="toggle_btn_layout_margin_top_bottom">5dp</dimen>
+    <dimen name="toggle_btn_layout_margin_center">5dp</dimen>
+
+    <!--Abbreviation List-->
+    <dimen name="abbreviation_list_item_height">35dp</dimen>
+
+    <!--EXPLORER-->
+    <dimen name="explorer_path_text_size">20sp</dimen>
+    <dimen name="row_item_height">40dp</dimen>
+    <dimen name="row_item_text_size">30sp</dimen>
+</resources>

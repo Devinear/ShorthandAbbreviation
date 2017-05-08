@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">약어 단축키</string>
+    <string name="action_settings">설정</string>
+
+    <string name="checked_clear">해제</string>
+
+    <string name="table_row_no">No.</string>
+    <string name="table_row_initial">초성</string>
+    <string name="table_row_middle">중성</string>
+    <string name="table_row_final">종성</string>
+    <string name="table_row_number">숫자</string>
+    <string name="table_row_contents">내용</string>
+
+    <string name="btn_content_search">검색</string>
+    <string name="btn_content_search_clear">지우기</string>
+    <string name="search_hint">내용에 포함된 문구를 검색하세요.</string>
+
+    <string name="no_results_found">검색 결과가 없습니다. 다시 검색시 처음의 위치에서 검색을 진행합니다.</string>
+    <string name="file_permission_denied">파일 읽기 권한이 없는 경우, 약어 사전을 불러올 수 없으므로 앱의 사용이 불가합니다.</string>
+
+</resources>

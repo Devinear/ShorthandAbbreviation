@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <!--AppBarLayout 영역-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--NUMBER TOGGLE BUTTON :: START-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ToggleButton
+                android:id="@+id/toggleBtn_num_1"
+                android:layout_width="@dimen/toggle_btn_width_30dp"
+                android:layout_height="@dimen/toggle_btn_height"
+                android:layout_weight="1"
+                android:textOn="@string/number_1"
+                android:textOff="@string/number_1" />
+            <ToggleButton
+                android:id="@+id/toggleBtn_num_2"
+                android:layout_width="@dimen/toggle_btn_width_30dp"
+                android:layout_height="@dimen/toggle_btn_height"
+                android:layout_weight="1"
+                android:textOn="@string/number_2"
+                android:textOff="@string/number_2" />
+            <ToggleButton
+                android:id="@+id/toggleBtn_num_3"
+                android:layout_width="@dimen/toggle_btn_width_30dp"
+                android:layout_height="@dimen/toggle_btn_height"
+                android:layout_weight="1"
+                android:textOn="@string/number_3"
+                android:textOff="@string/number_3" />
+            <ToggleButton
+                android:id="@+id/toggleBtn_num_4"
+                android:layout_width="@dimen/toggle_btn_width_30dp"
+                android:layout_height="@dimen/toggle_btn_height"
+                android:layout_weight="1"
+                android:textOn="@string/number_4"
+                android:textOff="@string/number_4" />
+            <ToggleButton
+                android:id="@+id/toggleBtn_num_5"
+                android:layout_width="@dimen/toggle_btn_width_30dp"
+                android:layout_height="@dimen/toggle_btn_height"
+                android:layout_weight="1"
+                android:textOn="@string/number_5"
+                android:textOff="@string/number_5" />
+            <ToggleButton
+                android:id="@+id/toggleBtn_num_6"
+                android:layout_width="@dimen/toggle_btn_width_30dp"
+                android:layout_height="@dimen/toggle_btn_height"
+                android:layout_weight="1"
+                android:textOn="@string/number_6"
+                android:textOff="@string/number_6" />
+            <ToggleButton
+                android:id="@+id/toggleBtn_num_7"
+                android:layout_width="@dimen/toggle_btn_width_30dp"
+                android:layout_height="@dimen/toggle_btn_height"
+                android:layout_weight="1"
+                android:textOn="@string/number_7"
+                android:textOff="@string/number_7" />
+            <ToggleButton
+                android:id="@+id/toggleBtn_num_8"
+                android:layout_width="@dimen/toggle_btn_width_30dp"
+                android:layout_height="@dimen/toggle_btn_height"
+                android:layout_weight="1"
+                android:textOn="@string/number_8"
+                android:textOff="@string/number_8" />
+            <ToggleButton
+                android:id="@+id/toggleBtn_num_9"
+                android:layout_width="@dimen/toggle_btn_width_30dp"
+                android:layout_height="@dimen/toggle_btn_height"
+                android:layout_weight="1"
+                android:textOn="@string/number_9"
+                android:textOff="@string/number_9" />
+            <ToggleButton
+                android:id="@+id/toggleBtn_num_0"
+                android:layout_width="@dimen/toggle_btn_width_30dp"
+                android:layout_height="@dimen/toggle_btn_height"
+                android:layout_weight="1"
+                android:textOn="@string/number_0"
+                android:textOff="@string/number_0" />
+        </LinearLayout>
+        <!--NUMBER TOGGLE BUTTON :: END-->
+
+        <!--INITIAL & FINAL CONSONANT TOGGLE BUTTON :: START-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/toggle_btn_layout_margin_top_bottom"
+            android:layout_marginBottom="@dimen/toggle_btn_layout_margin_top_bottom"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/toggle_btn_layout_margin_center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <!--INITIAL CONSONANT TOGGLE BUTTON :: START-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_initial_1"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/initial_consonant_1"
+                        android:textOff="@string/initial_consonant_1" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_initial_2"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/initial_consonant_2"
+                        android:textOff="@string/initial_consonant_2" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_initial_3"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/initial_consonant_3"
+                        android:textOff="@string/initial_consonant_3" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_initial_4"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/initial_consonant_4"
+                        android:textOff="@string/initial_consonant_4" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_initial_5"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/initial_consonant_5"
+                        android:textOff="@string/initial_consonant_5" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_initial_6"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/initial_consonant_6"
+                        android:textOff="@string/initial_consonant_6" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_initial_7"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/initial_consonant_7"
+                        android:textOff="@string/initial_consonant_7" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_initial_8"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/initial_consonant_8"
+                        android:textOff="@string/initial_consonant_8" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_initial_9"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/initial_consonant_9"
+                        android:textOff="@string/initial_consonant_9" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_final_16"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/final_consonant_16"
+                        android:textOff="@string/final_consonant_16" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_initial_10"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/initial_consonant_10"
+                        android:textOff="@string/initial_consonant_10" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_initial_11"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/initial_consonant_11"
+                        android:textOff="@string/initial_consonant_11" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_initial_12"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/initial_consonant_12"
+                        android:textOff="@string/initial_consonant_12" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_initial_13"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/initial_consonant_13"
+                        android:textOff="@string/initial_consonant_13" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_initial_14"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/initial_consonant_14"
+                        android:textOff="@string/initial_consonant_14" />
+                </LinearLayout>
+                <!--INITIAL CONSONANT TOGGLE BUTTON :: END-->
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/toggle_btn_layout_margin_center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <!--FINAL CONSONANT TOGGLE BUTTON :: START-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_final_1"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/final_consonant_1"
+                        android:textOff="@string/final_consonant_1" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_final_2"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/final_consonant_2"
+                        android:textOff="@string/final_consonant_2" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_final_3"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/final_consonant_3"
+                        android:textOff="@string/final_consonant_3" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_final_4"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/final_consonant_4"
+                        android:textOff="@string/final_consonant_4" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_final_5"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/final_consonant_5"
+                        android:textOff="@string/final_consonant_5" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_final_6"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/final_consonant_6"
+                        android:textOff="@string/final_consonant_6" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_final_7"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/final_consonant_7"
+                        android:textOff="@string/final_consonant_7" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_final_8"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/final_consonant_8"
+                        android:textOff="@string/final_consonant_8" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_final_9"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/final_consonant_9"
+                        android:textOff="@string/final_consonant_9" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_final_10"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/final_consonant_10"
+                        android:textOff="@string/final_consonant_10" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_final_11"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/final_consonant_11"
+                        android:textOff="@string/final_consonant_11" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_final_12"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/final_consonant_12"
+                        android:textOff="@string/final_consonant_12" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_final_13"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/final_consonant_13"
+                        android:textOff="@string/final_consonant_13" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_final_14"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/final_consonant_14"
+                        android:textOff="@string/final_consonant_14" />
+                    <ToggleButton
+                        android:id="@+id/toggleBtn_final_15"
+                        android:layout_width="@dimen/toggle_btn_width_30dp"
+                        android:layout_height="@dimen/toggle_btn_height"
+                        android:layout_weight="1"
+                        android:textOn="@string/final_consonant_15"
+                        android:textOff="@string/final_consonant_15" />
+                </LinearLayout>
+                <!--FINAL CONSONANT TOGGLE BUTTON :: END-->
+            </LinearLayout>
+        </LinearLayout>
+        <!--INITIAL & FINAL CONSONANT TOGGLE BUTTON :: END-->
+
+        <!--MIDDLE CONSONANT & ETC TOGGLE BUTTON :: START-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_clear"
+                android:layout_width="@dimen/toggle_btn_width_30dp"
+                android:layout_height="@dimen/toggle_btn_height"
+                android:layout_weight="0.5"
+                android:text="@string/checked_clear" />
+            <!--MIDDLE CONSONANT TOGGLE BUTTON :: START-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <ToggleButton
+                    android:id="@+id/toggleBtn_middle_1"
+                    android:layout_width="@dimen/toggle_btn_width_30dp"
+                    android:layout_height="@dimen/toggle_btn_height"
+                    android:layout_weight="1"
+                    android:textOn="@string/middle_consonant_1"
+                    android:textOff="@string/middle_consonant_1" />
+                <ToggleButton
+                    android:id="@+id/toggleBtn_middle_2"
+                    android:layout_width="@dimen/toggle_btn_width_30dp"
+                    android:layout_height="@dimen/toggle_btn_height"
+                    android:layout_weight="1"
+                    android:textOn="@string/middle_consonant_2"
+                    android:textOff="@string/middle_consonant_2" />
+                <ToggleButton
+                    android:id="@+id/toggleBtn_middle_3"
+                    android:layout_width="@dimen/toggle_btn_width_30dp"
+                    android:layout_height="@dimen/toggle_btn_height"
+                    android:layout_weight="1"
+                    android:textOn="@string/middle_consonant_3"
+                    android:textOff="@string/middle_consonant_3" />
+                <ToggleButton
+                    android:id="@+id/toggleBtn_middle_4"
+                    android:layout_width="@dimen/toggle_btn_width_30dp"
+                    android:layout_height="@dimen/toggle_btn_height"
+                    android:layout_weight="1"
+                    android:textOn="@string/middle_consonant_4"
+                    android:textOff="@string/middle_consonant_4" />
+                <ToggleButton
+                    android:id="@+id/toggleBtn_middle_5"
+                    android:layout_width="@dimen/toggle_btn_width_30dp"
+                    android:layout_height="@dimen/toggle_btn_height"
+                    android:layout_weight="1"
+                    android:textOn="@string/middle_consonant_5"
+                    android:textOff="@string/middle_consonant_5" />
+                <ToggleButton
+                    android:id="@+id/toggleBtn_middle_6"
+                    android:layout_width="@dimen/toggle_btn_width_30dp"
+                    android:layout_height="@dimen/toggle_btn_height"
+                    android:layout_weight="1"
+                    android:textOn="@string/middle_consonant_6"
+                    android:textOff="@string/middle_consonant_6" />
+            </LinearLayout>
+            <!--MIDDLE CONSONANT TOGGLE BUTTON :: END-->
+            <Button
+                android:id="@+id/btn_linebreak"
+                android:layout_width="@dimen/toggle_btn_width_30dp"
+                android:layout_height="@dimen/toggle_btn_height"
+                android:layout_weight="0.5"
+                android:text="@string/line_break" />
+        </LinearLayout>
+        <!--MIDDLE CONSONANT & ETC TOGGLE BUTTON :: END-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toggle_btn_height"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/edit_search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:hint="@string/search_hint"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/btn_search_next"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_search_black_24dp"/>
+        <ImageButton
+            android:id="@+id/btn_search_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_delete_black_24dp"/>
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark" />
+        <TableRow>
+            <TextView
+                android:id="@+id/table_row_no"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:textAlignment="center"
+                android:ellipsize="end"
+                android:textSize="@dimen/table_row_text_size"
+                android:textStyle="bold"
+                android:text="@string/table_row_no" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:background="@color/colorPrimaryDark" />
+            <TextView
+                android:id="@+id/table_row_initial"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="@dimen/table_row_text_size"
+                android:textStyle="bold"
+                android:text="@string/table_row_initial" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:background="@color/colorPrimaryDark" />
+            <TextView
+                android:id="@+id/table_row_middle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="@dimen/table_row_text_size"
+                android:textStyle="bold"
+                android:text="@string/table_row_middle" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:background="@color/colorPrimaryDark" />
+            <TextView
+                android:id="@+id/table_row_final"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="@dimen/table_row_text_size"
+                android:textStyle="bold"
+                android:text="@string/table_row_final" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:background="@color/colorPrimaryDark" />
+            <TextView
+                android:id="@+id/table_row_number"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="@dimen/table_row_text_size"
+                android:textStyle="bold"
+                android:text="@string/table_row_number" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:background="@color/colorPrimaryDark" />
+            <TextView
+                android:id="@+id/table_row_contents"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:textAlignment="center"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="@dimen/table_row_text_size"
+                android:textStyle="bold"
+                android:text="@string/table_row_contents" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark" />
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/abbreviation_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
