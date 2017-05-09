@@ -1,14 +1,8 @@
 package study.devin.shorthandabbreviation;
 
-import android.util.Log;
-
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.FileReader;
 import java.io.InputStreamReader;
-import java.io.Reader;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -16,7 +10,6 @@ import static android.content.Context.MODE_PRIVATE;
 
 public class ShorthandTextControl {
 
-    private final String ENCODING_UCS_2 = "UCS-2";
     private String fullPath;
     private ArrayList<AbbreviationItemByMap> listAbbreviationItem;
     private HashMap<AbbreviationItemByMap, MapValue> mapAbbreviationItem;
@@ -56,7 +49,7 @@ public class ShorthandTextControl {
             }
             else {
                 FileInputStream fis = new FileInputStream(fullPath);
-                bufferReader = new BufferedReader(new InputStreamReader(fis, ENCODING_UCS_2));
+                bufferReader = new BufferedReader(new InputStreamReader(fis, "UCS-2"));
                 // 약어 단어 사전은 UCS-2 리틀 엔디언으로 인코딩되어 있음
             }
 
@@ -148,6 +141,6 @@ public class ShorthandTextControl {
         return "";
     }*/
 
-    public void setInitFullText() {text = "";}
-    public String getFullText() {return text;}
+    public void setInitFullText() {this.text = "";}
+    public String getFullText() {return this.text;}
 }

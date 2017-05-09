@@ -70,4 +70,6 @@
 
     <string name="no_results_found">No search results. When searching again, search will be performed from the first location.</string>
     <string name="file_permission_denied">If you do not have permission to read the file, you will not be able to use the app because the abbreviation dictionary can not be recalled.</string>
+
+    <string name="file_explorer_path_title">Current : </string>
 </resources>

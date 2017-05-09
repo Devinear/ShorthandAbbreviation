@@ -27,7 +27,7 @@ public class FileExplorerActivity extends ListActivity {
     // path = item 클릭시 이동할 경로
     private List<String> listItem = null;
     private List<String> listPath = null;
-    private final String ROOT_DIR = "/storage/emulated/0";
+    //private final String ROOT_DIR = "/storage/emulated/0";
     private String rootDirectory;
 
     private TextView tvMyPath;
@@ -114,7 +114,9 @@ public class FileExplorerActivity extends ListActivity {
     }
 
     private void getDirectory(String strDirPath) {
-        tvMyPath.setText("Current : " + strDirPath);
+        String myPath = getString(R.string.file_explorer_path_title);
+        myPath += strDirPath;
+        tvMyPath.setText(myPath);
         listItem = new ArrayList<>();
         listPath = new ArrayList<>();
 
